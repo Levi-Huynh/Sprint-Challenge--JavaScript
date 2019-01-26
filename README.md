@@ -53,7 +53,7 @@ A feature in Javascript where the inner function (nested function) has access to
 
 5. Why do we need super() in an extended class?
 
-Super() allows the child class to inherit the parent attributes and methods/functions.  
+Super() allows the child class to inherit the parent attributes and methods. It basically calls the parent constructor.  
 
 ## Project Set up
 
