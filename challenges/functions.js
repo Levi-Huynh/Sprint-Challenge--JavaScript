@@ -27,17 +27,29 @@ const consume= function(x, y, cb){
   return cb(x , y)
 }
 
+//refactor:
+// const consume = (x,y,cb) =>cb(x,y)
+
 const add = function (x,y) {
   return x+y;
 }
+
+//refactor:
+// const add = (x,y) => (x+y)
 
 const multiply = function (x,y) {
 return x*y;
 }
 
+//refactor:
+//const multiply = (x,y) => (x*y) 
+
 const greeting = function (x,y) {
 console.log(`Hello ${x} ${y}, nice to meet you!`);
 }
+
+//refactor:
+//const greeting = (x,y) => console.log(`Hello ${x} ${y}, nice to meet you~`)
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 console.log(consume(2,2,add)); // 4
